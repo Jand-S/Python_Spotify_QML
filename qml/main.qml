@@ -85,18 +85,11 @@ Window {
                     activeMenuColor: "#1ed760"
 
                     onClicked: {
-                        homeBtn.isActiveMenu = true
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -127,18 +120,11 @@ Window {
                     activeMenuColor: "#1ed760"
 
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = true
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
 
 
@@ -173,18 +159,11 @@ Window {
                     activeMenuColor: "#1ed760"
 
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = true
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
             }
@@ -245,18 +224,11 @@ Window {
                     anchors.leftMargin: 0
 
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = true
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
 
                 }
@@ -284,18 +256,11 @@ Window {
                     anchors.leftMargin: 0
 
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = true
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -321,18 +286,11 @@ Window {
                     isActiveMenu: false
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = true
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -358,18 +316,11 @@ Window {
                     font.bold: true
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = true
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -395,18 +346,11 @@ Window {
                     isActiveMenu: false
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = true
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -433,18 +377,11 @@ Window {
                     font.bold: true
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = true
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -470,18 +407,11 @@ Window {
                     isActiveMenu: false
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = true
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -507,18 +437,11 @@ Window {
                     font.bold: true
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = true
-                        curtidaBtn.isActiveMenu = false
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
 
@@ -565,18 +488,11 @@ Window {
                     isActiveMenu: false
                     anchors.leftMargin: 0
                     onClicked: {
-                        homeBtn.isActiveMenu = false
-                        navegateBtn.isActiveMenu = false
-                        radioBtn.isActiveMenu = false
-                        youBtn.isActiveMenu = false
-                        recentBtn.isActiveMenu = false
-                        favoriteBtn.isActiveMenu = false
-                        albunsBtn.isActiveMenu = false
-                        artistsBtn.isActiveMenu = false
-                        estacaoBtn.isActiveMenu = false
-                        videoBtn.isActiveMenu = false
-                        podcastBtn.isActiveMenu = false
-                        curtidaBtn.isActiveMenu = true
+                        if(isActiveMenu){
+                            isActiveMenu = false
+                        }else{
+                            isActiveMenu = true
+                        }
                     }
                 }
             }
