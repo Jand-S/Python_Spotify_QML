@@ -58,6 +58,6 @@ Button{
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:4;height:29;width:29}
+    D{i:0;formeditorZoom:10;height:35;width:35}
 }
 ##^##*/

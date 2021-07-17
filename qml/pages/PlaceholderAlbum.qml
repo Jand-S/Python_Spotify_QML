@@ -36,7 +36,7 @@ Item {
                 x: 0
                 y: 4
                 color: "#ffffff"
-                text: qsTr(albumname)
+                text: "Album Placeholder"
                 font.bold: true
                 font.pointSize: 14
                 font.family: "Arial"

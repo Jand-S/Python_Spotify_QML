@@ -780,6 +780,7 @@ Window {
             BtnRadius {
                 id: upgrade_btn
                 width: 160
+
                 text: "FAZER UPGRADE"
                 anchors.left: textField.right
                 anchors.top: textField.top
@@ -790,20 +791,13 @@ Window {
                 txtOnButton: "FAZER UPGRADE"
                 font.pointSize: 10
                 font.bold: true
-                onHoveredChanged: {
-                    if (upgrade_btn.scale == 1){
-                        upgrade_btn.scale = 1.1
-                    }else{
-                        upgrade_btn.scale = 1
-                    }
-                }
             }
 
             ProfileBtn {
                 y: 10
-                width: 144
+                width: 153
                 height: 25
-                text: "Jason509.SpotifyQML"
+                text: "Jand-S.SpotifyQML"
                 anchors.left: upgrade_btn.right
                 bottomPadding: 6
                 anchors.leftMargin: 10
@@ -864,6 +858,6 @@ Window {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.1}D{i:40}D{i:41}D{i:42;invisible:true}
+    D{i:0;formeditorZoom:1.1}D{i:42;invisible:true}
 }
 ##^##*/

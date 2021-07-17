@@ -4,6 +4,9 @@ import QtQuick.Controls 2.15
 
 
 Item {
+    width: 880
+    height: 400
+    clip: true
     Rectangle {
         id: bg
         color: "#00000000"
@@ -76,8 +79,4 @@ Item {
 
 }
 
-/*##^##
-Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
-##^##*/
+

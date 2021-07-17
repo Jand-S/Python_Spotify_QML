@@ -21,6 +21,16 @@ Item {
             source: "../../images/albuns/DailyMix5.png"
             anchors.leftMargin: 0
             fillMode: Image.PreserveAspectFit
+            opacity: album1.containsMouse ? 0.5 : 1;
+            MouseArea {
+                id:album1
+                enabled: !img1AlbumAtalho1.hoverDisabled
+                hoverEnabled: true;
+                cursorShape: Qt.PointingHandCursor;
+                anchors.fill: parent
+                onClicked: console.log('clicked')
+
+            }
         }
 
         Image {
@@ -32,6 +42,16 @@ Item {
             source: "../../images/albuns/MixAnos2010.png"
             fillMode: Image.PreserveAspectFit
             anchors.leftMargin: 22
+            opacity: album2.containsMouse ? 0.5 : 1;
+            MouseArea {
+                id:album2
+                enabled: !img1AlbumAtalho2.hoverDisabled
+                hoverEnabled: true;
+                cursorShape: Qt.PointingHandCursor;
+                anchors.fill: parent
+                onClicked: console.log('clicked')
+
+            }
         }
 
         Label {
